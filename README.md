@@ -44,10 +44,10 @@ The dataset reflects a systemic pattern where lower-rated and younger agents rec
 ---
 
 ## How To Use
-
-1. Run `git clone https://github.com/Nematillo-2210/amazon-delivery-speed-predictor` in terminal.
+1. Run `git clone https://github.com/Nematillo-2210/amazon-delivery-speed-predictor` in your terminal.
 2. Run `pip install -r requirements.txt` in your terminal
-3. Run `streamlit run app.py` in your terminal
+3. Run `cd src` in your terminal
+4. Run `streamlit run app.py` in your terminal
 
 
 ---
