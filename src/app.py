@@ -3,9 +3,9 @@ import pandas as pd
 import streamlit as st
 from shap import TreeExplainer, summary_plot
 import matplotlib.pyplot as plt
-model = jl.load('src/best_model.pkl')
-X_test_prepped = jl.load('src/X_test_prepped.pkl')
-feature_names = jl.load('src/feature_names.pkl')
+model = jl.load('best_model.pkl')
+X_test_prepped = jl.load('X_test_prepped.pkl')
+feature_names = jl.load('feature_names.pkl')
 extracted_clf = model.named_steps['model']
 
 months = {
