@@ -64,3 +64,6 @@ The dataset reflects a systemic pattern where lower-rated and younger agents rec
 
 ## Screenshots
 ![App](screenshots/preview%20(1).webp)
+![App](screenshots/preview%20(2).webp)
+![App](screenshots/preview%20(3).webp)
+
