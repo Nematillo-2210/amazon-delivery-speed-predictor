@@ -3,9 +3,9 @@ import pandas as pd
 import streamlit as st
 from shap import TreeExplainer, summary_plot
 import matplotlib.pyplot as plt
-model = jl.load('best_model.pkl')
-X_test_prepped = jl.load('X_test_prepped.pkl')
-feature_names = jl.load('feature_names.pkl')
+model = jl.load('src/best_model.pkl')
+X_test_prepped = jl.load('src/X_test_prepped.pkl')
+feature_names = jl.load('src/feature_names.pkl')
 extracted_clf = model.named_steps['model']
 
 months = {
@@ -30,12 +30,11 @@ days_of_week = {
     'Saturday': 6,
     'Sunday': 7
   }
-# Day 15(
+
 if 'history' not in st.session_state:
    st.session_state['history'] = []
-# Day 15)
 
-st.title('Shipment Delay Prediction')
+st.title('Amazon Shipment Delay Prediction')
 with st.expander("See info"):
    st.write("The model has been trained to predict whether a delivery will be fast or not.\n" 
   "\nYou can easily change the values for the delivery details under this message")
