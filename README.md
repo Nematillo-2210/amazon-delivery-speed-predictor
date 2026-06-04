@@ -53,6 +53,11 @@ The dataset reflects a systemic pattern where lower-rated and younger agents rec
 ---
 
 ## Tech Stack
-- Python, XGBoost, scikit-learn, SHAP
-- Streamlit for the web interface
-- Deployed on Hugging Face Spaces
+- Python
+- XGBoost
+- scikit-learn
+- SHAP
+- Pandas
+- Joblib
+- Streamlit
+- Hugging Face
